@@ -1,0 +1,6 @@
+we have a chessboard of 7x7 squares
+each square is a vertex. meaning, it's a node with edges (connections) to other vertices
+
+when the knight gets a starting position, we need to fetch that vertex
+then, we need to explore all possible paths from that vertex to the destination vertex
+store the successful paths, and show the shortest one, defined as the path with fewest steps
